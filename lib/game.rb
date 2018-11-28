@@ -60,7 +60,7 @@ class Game
     board.display
     unless over?
       turn
-      #play
+      play
     end
     if won?
       puts "Congratulations #{winner}!"
