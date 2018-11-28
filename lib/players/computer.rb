@@ -16,6 +16,11 @@ module Players
       # need to return _one_ of the two potential positions
     end
     
+    def first_move
+      "5"
+    end
+    
+    
     def move(board)
       puts "Your turn, #{token}. Where would you like to go?"
       if board.turn_count == 0
