@@ -28,7 +28,7 @@ class Game
   end
   
   def draw?
-    if board.full? && won? == nil
+    if board.full? && won? == false
       true
     else
       false
