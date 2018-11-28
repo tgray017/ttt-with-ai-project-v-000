@@ -60,13 +60,15 @@ class Game
     board.display
     unless over?
       turn
-      play
+      if won?
+        puts "Congratulations #{winner}!"
+      end
     end
-    if won?
-      puts "Congratulations #{winner}!"
-    elsif draw?
-      puts "Cat's Game!"
-    end
+    #if won?
+    #  puts "Congratulations #{winner}!"
+    #elsif draw?
+    #  puts "Cat's Game!"
+    #end
   end
   
 end
