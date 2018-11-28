@@ -57,6 +57,9 @@ class Game
   end
   
   def play
+    
+    
+    
     if over?
       if won?
         winner
