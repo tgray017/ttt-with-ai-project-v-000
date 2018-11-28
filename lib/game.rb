@@ -19,7 +19,7 @@ class Game
   
   def won?
     if WIN_COMBINATIONS.detect{|c|
-      (board.cells[c[0]] == "X" && board.cells[c[1]] == "X" && board.cells[c[2]] == "X") || (board.cells[c[0]] == "O" && board.cells[c[1]] == "O" && board.cells[c[2]] == "O")}.nil?
+      (board.cells[c[0]] == "X" && board.cells[c[1]] == "X" && board.cells[c[2]] == "X") || (board.cells[c[0]] == "O" && board.cells[c[1]] == "O" && board.cells[c[2]] == "O")} == nil
       false
     else
       WIN_COMBINATIONS.detect{|c|
