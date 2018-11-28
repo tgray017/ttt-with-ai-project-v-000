@@ -57,7 +57,7 @@ class Game
   end
   
   def play
-    while over? == false
+    while over? != true
       turn
     end
     if won?
