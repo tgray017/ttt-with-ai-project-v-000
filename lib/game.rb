@@ -58,7 +58,7 @@ class Game
   
   def play
     board.display
-    while !over?
+    while !over? && !won? 
       turn
     end
     #if won?
