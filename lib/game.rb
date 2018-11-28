@@ -36,7 +36,7 @@ class Game
   end
   
   def over?
-    (draw? == true && board.full?) || won? != nil
+    (draw? == true && board.full?) || won? != false
   end
   
   def winner
