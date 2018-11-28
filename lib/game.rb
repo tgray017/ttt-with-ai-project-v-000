@@ -57,6 +57,7 @@ class Game
   end
   
   def play
+    board.display
     unless over?
       turn
       play
