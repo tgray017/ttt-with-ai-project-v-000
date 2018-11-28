@@ -59,9 +59,8 @@ class Game
   def play
     board.display
     while !over?
-      turn
-      if won?
-        puts "Congratulations #{winner}!"
+      while !won?
+        turn
       end
     end
     #if won?
