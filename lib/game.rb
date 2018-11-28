@@ -65,7 +65,7 @@ class Game
     board.display
     while !over?
       turn
-      binding.pry
+      #binding.pry
     end
     if won?
       puts "Congratulations #{winner}!"
