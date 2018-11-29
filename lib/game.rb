@@ -90,6 +90,7 @@ class Game
 
   def multiple_losing_combos
     #need a method for computer to take the position on the board where there is > 1 losing combination if the opposing player were to take that position
+    #maybe refactor the #almost_lost method to #collect all losing combos and use this method to #detect which one to use and which position to take
   end
   
   def multiple_winning_combos
